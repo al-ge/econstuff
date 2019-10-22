@@ -1,6 +1,3 @@
-sorry but pastebin restricted me from posting anything more for 24 hours
-listed are all of the functions remaining for the 10% noise submissions
-
 def theAliceBlindSupportEight(mymoves, othermoves, totalRounds, currentRound):
     #stays silent
         return False
