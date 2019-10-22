@@ -69,3 +69,171 @@ def theAliceBlindCopycatSix(mymoves, othermoves, totalRounds, currentRound):
     if currentRound == 50:
         return True
     return False
+
+
+
+#below is 0% noise (15 supports, 5 main)
+
+def theAlicecopycatSupportOne(mymoves, othermoves, totalRounds, currentRound):
+    #tit for tat always
+    if len(othermoves) == 0:
+        return False
+    if othermoves[-1]:
+        return True
+    return False
+
+def theAlicecopycatSupportTwo(mymoves, othermoves, totalRounds, currentRound):
+    #tit for tat always
+    if len(othermoves) == 0:
+        return False
+    if othermoves[-1]:
+        return True
+    return False
+
+def theAlicecopycatSupportThree(mymoves, othermoves, totalRounds, currentRound):
+    #tit for tat always
+    if len(othermoves) == 0:
+        return False
+    if othermoves[-1]:
+        return True
+    return False
+
+def theAlicecopycatSupportFour(mymoves, othermoves, totalRounds, currentRound):
+    #tit for tat always
+    if len(othermoves) == 0:
+        return False
+    if othermoves[-1]:
+        return True
+    return False
+
+def theAlicecopycatSupportFive(mymoves, othermoves, totalRounds, currentRound):
+    #tit for tat always
+    if len(othermoves) == 0:
+        return False
+    if othermoves[-1]:
+        return True
+    return False
+
+def theAlicecopycatSupportSix(mymoves, othermoves, totalRounds, currentRound):
+    #tit for tat always
+    if len(othermoves) == 0:
+        return False
+    if othermoves[-1]:
+        return True
+    return False
+
+def theAlicecopycatSupportSeven(mymoves, othermoves, totalRounds, currentRound):
+    #tit for tat always
+    if len(othermoves) == 0:
+        return False
+    if othermoves[-1]:
+        return True
+    return False
+
+def theAlicecopycatSupportEight(mymoves, othermoves, totalRounds, currentRound):
+    #tit for tat always
+    if len(othermoves) == 0:
+        return False
+    if othermoves[-1]:
+        return True
+    return False
+
+def theAlicecopycatSupportNine(mymoves, othermoves, totalRounds, currentRound):
+    #tit for tat always
+    if len(othermoves) == 0:
+        return False
+    if othermoves[-1]:
+        return True
+    return False
+
+def theAlicecopycatSupportTen(mymoves, othermoves, totalRounds, currentRound):
+    #tit for tat always
+    if len(othermoves) == 0:
+        return False
+    if othermoves[-1]:
+        return True
+    return False
+
+def theAlicecopycatSupportEleven(mymoves, othermoves, totalRounds, currentRound):
+    #tit for tat always
+    if len(othermoves) == 0:
+        return False
+    if othermoves[-1]:
+        return True
+    return False
+
+def theAlicecopycatSupportTwelve(mymoves, othermoves, totalRounds, currentRound):
+    #tit for tat always
+    if len(othermoves) == 0:
+        return False
+    if othermoves[-1]:
+        return True
+    return False
+
+def theAlicecopycatSupportThirteen(mymoves, othermoves, totalRounds, currentRound):
+    #tit for tat always
+    if len(othermoves) == 0:
+        return False
+    if othermoves[-1]:
+        return True
+    return False
+
+def theAlicecopycatSupportFourteen(mymoves, othermoves, totalRounds, currentRound):
+    #tit for tat always
+    if len(othermoves) == 0:
+        return False
+    if othermoves[-1]:
+        return True
+    return False
+
+def theAlicecopycatSupportFifteen(mymoves, othermoves, totalRounds, currentRound):
+    #tit for tat always
+    if len(othermoves) == 0:
+        return False
+    if othermoves[-1]:
+        return True
+    return False
+
+def theAlicecopycatSupportSixteen(mymoves, othermoves, totalRounds, currentRound):
+    #tit for tat always
+    if len(othermoves) == 0:
+        return False
+    if othermoves[-1]:
+        return True
+    return False
+
+def theAlicecopycatSupportSeventeen(mymoves, othermoves, totalRounds, currentRound):
+    #tit for tat always
+    if len(othermoves) == 0:
+        return False
+    if othermoves[-1]:
+        return True
+    return False
+
+def theAlicecopycatSupportEighteen(mymoves, othermoves, totalRounds, currentRound):
+    #tit for tat always
+    if len(othermoves) == 0:
+        return False
+    if othermoves[-1]:
+        return True
+    return False
+
+def theAlicecopycat(mymoves, othermoves, totalRounds, currentRound):
+    #tit for tat except last round, on which they rat
+    if currentRound == 50:
+        return True
+    if len(othermoves) == 0:
+        return False
+    if othermoves[-1]:
+        return True
+    return False
+
+def theAlicecopycatTwo(mymoves, othermoves, totalRounds, currentRound):
+    #tit for tat except last round, on which they rat
+    if currentRound == 50:
+        return True
+    if len(othermoves) == 0:
+        return False
+    if othermoves[-1]:
+        return True
+    return False
