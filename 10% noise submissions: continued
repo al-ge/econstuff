@@ -1,0 +1,74 @@
+sorry but pastebin restricted me from posting anything more for 24 hours
+listed are all of the functions remaining for the 10% noise submissions
+
+def theAliceBlindSupportEight(mymoves, othermoves, totalRounds, currentRound):
+    #stays silent
+        return False
+        
+def theAliceBlindSupportNine(mymoves, othermoves, totalRounds, currentRound):
+    #stays silent
+        return False
+
+def theAliceBlindSupportTen(mymoves, othermoves, totalRounds, currentRound):
+    #stays silent
+        return False
+
+def theAliceBlindCopycatOne(mymoves, othermoves, totalRounds, currentRound):
+    #tit for tat except last round, on which they rat
+    if len(othermoves) == 0:
+        return False
+    if othermoves[-1]:
+        return True
+    if currentRound == 50:
+        return True
+    return False
+
+def theAliceBlindCopycatTwo(mymoves, othermoves, totalRounds, currentRound):
+    #tit for tat except last round, on which they rat
+    if len(othermoves) == 0:
+        return False
+    if othermoves[-1]:
+        return True
+    if currentRound == 50:
+        return True
+    return False
+
+def theAliceBlindCopycatThree(mymoves, othermoves, totalRounds, currentRound):
+    #tit for tat except last round, on which they rat
+    if len(othermoves) == 0:
+        return False
+    if othermoves[-1]:
+        return True
+    if currentRound == 50:
+        return True
+    return False
+
+def theAliceBlindCopycatFour(mymoves, othermoves, totalRounds, currentRound):
+    #tit for tat except last round, on which they rat
+    if len(othermoves) == 0:
+        return False
+    if othermoves[-1]:
+        return True
+    if currentRound == 50:
+        return True
+    return False
+
+def theAliceBlindCopycatFive(mymoves, othermoves, totalRounds, currentRound):
+    #tit for tat except last round, on which they rat
+    if len(othermoves) == 0:
+        return False
+    if othermoves[-1]:
+        return True
+    if currentRound == 50:
+        return True
+    return False
+
+def theAliceBlindCopycatSix(mymoves, othermoves, totalRounds, currentRound):
+    #tit for tat except last round, on which they rat
+    if len(othermoves) == 0:
+        return False
+    if othermoves[-1]:
+        return True
+    if currentRound == 50:
+        return True
+    return False
