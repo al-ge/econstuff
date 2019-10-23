@@ -1,3 +1,40 @@
+def theAliceBlindRatAlmostAlwaysOne(mymoves, othermoves, totalRounds, currentRound):
+    #rats always after first 6 rounds, in which only tit for tat
+    if currentRound < 6:
+        if len(othermoves) == 0:
+           return False
+        if othermoves[-1]:
+           return True
+    return True
+
+def theAliceBlindSupportOne(mymoves, othermoves, totalRounds, currentRound):
+    #stays silent
+        return False
+
+def theAliceBlindSupportTwo(mymoves, othermoves, totalRounds, currentRound):
+    #stays silent
+        return False
+        
+def theAliceBlindSupportThree(mymoves, othermoves, totalRounds, currentRound):
+    #stays silent
+        return False
+
+def theAliceBlindSupportFour(mymoves, othermoves, totalRounds, currentRound):
+    #stays silent
+        return False
+
+def theAliceBlindSupportFive(mymoves, othermoves, totalRounds, currentRound):
+    #stays silent
+        return False
+        
+def theAliceBlindSupportSix(mymoves, othermoves, totalRounds, currentRound):
+    #stays silent
+        return False
+
+def theAliceBlindSupportSeven(mymoves, othermoves, totalRounds, currentRound):
+    #stays silent
+        return False
+
 def theAliceBlindSupportEight(mymoves, othermoves, totalRounds, currentRound):
     #stays silent
         return False
@@ -61,6 +98,36 @@ def theAliceBlindCopycatFive(mymoves, othermoves, totalRounds, currentRound):
     return False
 
 def theAliceBlindCopycatSix(mymoves, othermoves, totalRounds, currentRound):
+    #tit for tat except last round, on which they rat
+    if len(othermoves) == 0:
+        return False
+    if othermoves[-1]:
+        return True
+    if currentRound == 50:
+        return True
+    return False
+
+def theAliceBlindCopycatSeven(mymoves, othermoves, totalRounds, currentRound):
+    #tit for tat except last round, on which they rat
+    if len(othermoves) == 0:
+        return False
+    if othermoves[-1]:
+        return True
+    if currentRound == 50:
+        return True
+    return False
+
+def theAliceBlindCopycatEight(mymoves, othermoves, totalRounds, currentRound):
+    #tit for tat except last round, on which they rat
+    if len(othermoves) == 0:
+        return False
+    if othermoves[-1]:
+        return True
+    if currentRound == 50:
+        return True
+    return False
+
+def theAliceBlindCopycatNine(mymoves, othermoves, totalRounds, currentRound):
     #tit for tat except last round, on which they rat
     if len(othermoves) == 0:
         return False
