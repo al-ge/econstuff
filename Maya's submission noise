@@ -1,0 +1,164 @@
+def MayaStitForTwotatswithendmoveone(mymoves, othermoves, totalRounds, currentRound):
+    #Stays silent until the other player rats twice in a row. If the other player's last 2 moves is rat this player only rats for this round.
+    if currentRound == 49:
+        return True
+    if len(othermoves) < 2:
+        return False
+    if othermoves[-1] and othermoves[-2]:
+        return True
+    else:
+        return False
+
+def MayaStitForTwotatswithendmovetwo(mymoves, othermoves, totalRounds, currentRound):
+    #Stays silent until the other player rats twice in a row. If the other player's last 2 moves is rat this player only rats for this round.
+    if currentRound == 49:
+        return True
+    if len(othermoves) < 2:
+        return False
+    if othermoves[-1] and othermoves[-2]:
+        return True
+    else:
+        return False
+
+def MayaStitForTwotatswithendmovethree(mymoves, othermoves, totalRounds, currentRound):
+    #Stays silent until the other player rats twice in a row. If the other player's last 2 moves is rat this player only rats for this round.
+    if currentRound == 49:
+        return True
+    if len(othermoves) < 2:
+        return False
+    if othermoves[-1] and othermoves[-2]:
+        return True
+    else:
+        return False
+
+def MayaStitForTwotatswithendmovefour(mymoves, othermoves, totalRounds, currentRound):
+    #Stays silent until the other player rats twice in a row. If the other player's last 2 moves is rat this player only rats for this round.
+    if currentRound == 49:
+        return True
+    if len(othermoves) < 2:
+        return False
+    if othermoves[-1] and othermoves[-2]:
+        return True
+    else:
+        return False
+
+def MayaStitForTwotatswithendmovefive(mymoves, othermoves, totalRounds, currentRound):
+    #Stays silent until the other player rats twice in a row. If the other player's last 2 moves is rat this player only rats for this round.
+    if currentRound == 49:
+        return True
+    if len(othermoves) < 2:
+        return False
+    if othermoves[-1] and othermoves[-2]:
+        return True
+    else:
+        return False
+
+def MayaStitForTwotatswithendmovesix(mymoves, othermoves, totalRounds, currentRound):
+    #Stays silent until the other player rats twice in a row. If the other player's last 2 moves is rat this player only rats for this round.
+    if currentRound == 49:
+        return True
+    if len(othermoves) < 2:
+        return False
+    if othermoves[-1] and othermoves[-2]:
+        return True
+    else:
+        return False
+
+def MayaStitForTwotatswithendmoveseven(mymoves, othermoves, totalRounds, currentRound):
+    #Stays silent until the other player rats twice in a row. If the other player's last 2 moves is rat this player only rats for this round.
+    if currentRound == 49:
+        return True
+    if len(othermoves) < 2:
+        return False
+    if othermoves[-1] and othermoves[-2]:
+        return True
+    else:
+        return False
+
+def MayaStitForTwotatswithendmoveeight(mymoves, othermoves, totalRounds, currentRound):
+    #Stays silent until the other player rats twice in a row. If the other player's last 2 moves is rat this player only rats for this round.
+    if currentRound == 49:
+        return True
+    if len(othermoves) < 2:
+        return False
+    if othermoves[-1] and othermoves[-2]:
+        return True
+    else:
+        return False
+
+def MayaStitForTwotatswithendmovenine(mymoves, othermoves, totalRounds, currentRound):
+    #Stays silent until the other player rats twice in a row. If the other player's last 2 moves is rat this player only rats for this round.
+    if currentRound == 49:
+        return True
+    if len(othermoves) < 2:
+        return False
+    if othermoves[-1] and othermoves[-2]:
+        return True
+    else:
+        return False
+
+def MayaStitForTwotatswithendmoveten(mymoves, othermoves, totalRounds, currentRound):
+    #Stays silent until the other player rats twice in a row. If the other player's last 2 moves is rat this player only rats for this round.
+    if currentRound == 49:
+        return True
+    if len(othermoves) < 2:
+        return False
+    if othermoves[-1] and othermoves[-2]:
+        return True
+    else:
+        return False
+
+def MayaStitForTwotatswithendmoveeleven(mymoves, othermoves, totalRounds, currentRound):
+    #Stays silent until the other player rats twice in a row. If the other player's last 2 moves is rat this player only rats for this round.
+    if currentRound == 49:
+        return True
+    if len(othermoves) < 2:
+        return False
+    if othermoves[-1] and othermoves[-2]:
+        return True
+    else:
+        return False
+
+def MayaStitForTwotatswithendmovetwelve(mymoves, othermoves, totalRounds, currentRound):
+    #Stays silent until the other player rats twice in a row. If the other player's last 2 moves is rat this player only rats for this round.
+    if currentRound == 49:
+        return True
+    if len(othermoves) < 2:
+        return False
+    if othermoves[-1] and othermoves[-2]:
+        return True
+    else:
+        return False
+
+def MayaStitForTwotatswithendmovethirteen(mymoves, othermoves, totalRounds, currentRound):
+    #Stays silent until the other player rats twice in a row. If the other player's last 2 moves is rat this player only rats for this round.
+    if currentRound == 49:
+        return True
+    if len(othermoves) < 2:
+        return False
+    if othermoves[-1] and othermoves[-2]:
+        return True
+    else:
+        return False
+
+def MayaStitForTwotatswithendmovefourteen(mymoves, othermoves, totalRounds, currentRound):
+    #Stays silent until the other player rats twice in a row. If the other player's last 2 moves is rat this player only rats for this round.
+    if currentRound == 49:
+        return True
+    if len(othermoves) < 2:
+        return False
+    if othermoves[-1] and othermoves[-2]:
+        return True
+    else:
+        return False
+
+def MayaStitForTwotatswithendmovefifteen(mymoves, othermoves, totalRounds, currentRound):
+    #Stays silent until the other player rats twice in a row. If the other player's last 2 moves is rat this player only rats for this round.
+    if currentRound == 49:
+        return True
+    if len(othermoves) < 2:
+        return False
+    if othermoves[-1] and othermoves[-2]:
+        return True
+    else:
+        return False
